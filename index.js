@@ -5,7 +5,7 @@ require("dotenv").config()
 const cors=require("cors")
 const register=require("./Route/Registration")
 const login=require("./Route/Login")
-const cookieParser=require("cookie-parser")
+
 const info=require("./Route/Info")
 const deleted=require("./Route/UserDrop")
 

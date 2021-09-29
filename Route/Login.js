@@ -1,7 +1,7 @@
 const express=require("express")
 const route=express.Router()
 const user=require("../models/user")
-const bcrypt=require("bcrypt")
+const bcrypt=require("bcryptjs")
 const json=require("jsonwebtoken")
 require("dotenv").config()
 

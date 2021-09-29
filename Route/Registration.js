@@ -1,6 +1,6 @@
 const express=require("express")
 const route=express.Router()
-const bcrypt=require("bcrypt")
+const bcrypt=require("bcryptjs")
 const user = require("../models/user")
 const validation=require("../Functions/Validation")
 
